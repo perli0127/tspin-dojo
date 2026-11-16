@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>T轉道場｜俄羅斯方塊知識講義</title>
+<meta name="description" content="T轉道場：把 tetris-rag 知識庫整理成 16 篇俄羅斯方塊講義，涵蓋歷史、規則、T轉技巧與賽事。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <section class="hero">
+    <h1><span class="t">T</span>轉道場</h1>
+    <p>一個俄羅斯方塊（Tetris）知識講義站。從 1984 年的蘇聯電腦室、T轉的三角規則，到 13 歲玩家讓 NES 當機——每一篇都是「讀完就學會一個概念」的小講義，附盤面圖與道場小測驗。</p>
+    <div class="hero-stats" id="hero-stats"></div>
+  </section>
+
+  <div class="search">
+    <input id="search-input" type="search" placeholder="搜尋講義：例如 T轉、SRS、NES、比賽…" aria-label="搜尋講義">
+  </div>
+  <p class="search-empty" id="search-empty">找不到相關講義，換個關鍵字試試。</p>
+
+  <main id="topic-list"></main>
+
+  <section class="how" id="how">
+    <h2>這個網站怎麼繼續長大？</h2>
+    <ol>
+      <li>所有規則寫在 <code>AGENTS.md</code>（Claude Code 透過 <code>CLAUDE.md</code> 讀取同一份）。</li>
+      <li>新增講義：複製 <code>articles/_template.html</code> → 命名為 <code>NN-slug.html</code> → 在 <code>data/articles.js</code> 登記一筆。</li>
+      <li>首頁卡片、分類、上一篇／下一篇、盤面圖全部自動產生，不需要改首頁。</li>
+    </ol>
+  </section>
+</div>
+<script src="data/articles.js"></script>
+<script src="assets/site.js"></script>
+</body>
+</html>

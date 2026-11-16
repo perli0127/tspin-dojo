@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>超級旋轉系統（SRS）與踢牆｜T轉道場</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-slug="06-srs-kicks">
+<div class="wrap wrap-narrow">
+<article class="lesson">
+
+  <header class="lesson-head">
+    <h1>超級旋轉系統（SRS）與踢牆</h1>
+    <p class="lead">旋轉被牆擋住了？現代規則會偷偷幫你換個位置再試一次。</p>
+  </header>
+
+  <section class="keypoints">
+    <h2>三句話重點</h2>
+    <ul>
+      <li>超級旋轉系統（Super Rotation System, SRS）是現代作品的標準旋轉規則。</li>
+      <li>旋轉後若會重疊，遊戲依序嘗試最多 5 個位移，合法就「踢」過去，這叫踢牆。</li>
+      <li>SRS 的旋轉可逆，讓 T轉三消成為可能；經典 NES 版則沒有踢牆。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>什麼是踢牆</h2>
+    <p>當方塊旋轉後會和牆壁或其他方塊重疊時，超級旋轉系統（Super Rotation System, SRS）不會直接判定失敗，而是依序嘗試最多 5 個位移位置。只要其中一個位置合法，就把方塊「踢」過去，這稱為踢牆（wall kick）。</p>
+    <p>不只牆壁，地板也能踢，稱為地板踢（floor kick）。</p>
+  </section>
+
+  <section>
+    <h2>兩張位移表</h2>
+    <p>J、L、S、T、Z 五種方塊共用同一張位移表，I 方塊因為比較長，另外有一張自己的表。O 方塊旋轉後形狀不變，所以不需要踢牆。</p>
+  </section>
+
+  <section>
+    <h2>為什麼這對 T轉很重要</h2>
+    <p>SRS 的所有旋轉都是可逆的——轉過去能轉回來。正因為踢牆讓 T 方塊能「擠」進看起來進不去的縫，T轉三消（T-Spin Triple, TST）這種高難度招式才能成立。相對地，經典 NES 版沒有踢牆，旋轉一被擋住就會失敗。</p>
+  </section>
+
+  <section class="quiz">
+    <h2>道場小測驗</h2>
+    <details><summary>SRS 踢牆最多會嘗試幾個位移位置？</summary><p>最多 5 個。</p></details>
+    <details><summary>哪一種方塊有自己獨立的位移表？</summary><p>I 方塊；J、L、S、T、Z 共用一張。</p></details>
+    <details><summary>NES 經典版旋轉被擋住時會怎樣？</summary><p>直接失敗，因為沒有踢牆。</p></details>
+  </section>
+
+  <section class="sources">
+    <h2>資料來源</h2>
+    <ul>
+      <li><a href="https://tetris.wiki/Tetris_Guideline" target="_blank" rel="noopener">TetrisWiki（Tetris Guideline 條目：Super Rotation System）</a>・知識庫 <code>doc_006</code></li>
+    </ul>
+  </section>
+
+</article>
+</div>
+<script src="../data/articles.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>

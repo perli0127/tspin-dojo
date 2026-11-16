@@ -1,0 +1,37 @@
+/* 文章清單：全站唯一的目錄來源（規則見 AGENTS.md 第 7 節）
+   - 依編號順序排列；首頁卡片、上一篇/下一篇都由這裡產生
+   - topic 只能是 history / rules / tspin / scene */
+window.ARTICLES = [
+  { slug: "01-tetris-origin", title: "俄羅斯方塊的誕生", topic: "history",
+    summary: "1984 年莫斯科，一台只能顯示文字的電腦上誕生了消行遊戲。", docs: ["doc_001"], tags: ["帕基特諾夫", "Elektronika 60", "世界俄羅斯方塊日"] },
+  { slug: "02-license-war", title: "走出蘇聯與版權爭奪", topic: "history",
+    summary: "一款遊戲、三方搶授權：羅傑斯如何飛到莫斯科談下掌機版權。", docs: ["doc_002"], tags: ["Elorg", "羅傑斯", "Tengen", "電影"] },
+  { slug: "03-gameboy-nes", title: "Game Boy 版與 NES 版", topic: "history",
+    summary: "為什麼同捆的是方塊而不是瑪利歐？掌機殺手級應用的由來。", docs: ["doc_003"], tags: ["Game Boy", "NES", "任天堂"] },
+  { slug: "04-guideline", title: "The Tetris Company 與 Tetris Guideline", topic: "history",
+    summary: "2001 年起統一規則的「指導方針」，劃開了經典與現代。", docs: ["doc_004"], tags: ["Guideline", "SRS", "現代"] },
+  { slug: "05-tetrominoes", title: "七種方塊與遊戲場地", topic: "rules",
+    summary: "I、O、T、S、Z、J、L 的形狀、標準色，以及 10×20 的場地。", docs: ["doc_005"], tags: ["四格骨牌", "配色", "場地"] },
+  { slug: "06-srs-kicks", title: "超級旋轉系統（SRS）與踢牆", topic: "rules",
+    summary: "旋轉被擋住時，遊戲會幫你試 5 個位置——這就是踢牆。", docs: ["doc_006"], tags: ["SRS", "踢牆", "旋轉"] },
+  { slug: "07-7bag-hold", title: "7-bag 隨機產生器與 Hold", topic: "rules",
+    summary: "七塊一袋的發牌規律，加上一次一用的暫存格。", docs: ["doc_007"], tags: ["7-bag", "Hold", "預覽"] },
+  { slug: "08-tspin-rules", title: "T轉的判定：三角規則", topic: "tspin",
+    summary: "最後一步是旋轉、四個斜角佔三個，正式與迷你怎麼分？", docs: ["doc_008"], tags: ["T轉", "迷你T轉", "三角規則", "TSD"] },
+  { slug: "09-tspin-scoring", title: "T轉計分、Back-to-Back 與攻擊", topic: "tspin",
+    summary: "T轉雙消 1200 分、送 4 行：為什麼 T轉是效率之王。", docs: ["doc_009"], tags: ["計分", "B2B", "攻擊", "垃圾行"] },
+  { slug: "10-stacking-openers", title: "基本堆疊技巧與 T轉開局", topic: "tspin",
+    summary: "平坦堆疊、留井、預留 T 槽，再學一兩個開局。", docs: ["doc_010"], tags: ["堆疊", "開局", "TKI", "全清"] },
+  { slug: "11-nes-killscreen", title: "NES 經典版與等級 29「殺屏」", topic: "scene",
+    summary: "沒有 Hold、沒有踢牆，29 級方塊一幀掉一格。", docs: ["doc_011"], tags: ["NES", "殺屏", "maxout"] },
+  { slug: "12-das-rolling", title: "DAS、Hypertapping 與 Rolling", topic: "tspin",
+    summary: "從按住不放到每秒 20 下：經典賽的手速進化史。", docs: ["doc_012"], tags: ["DAS", "Hypertapping", "Rolling"] },
+  { slug: "13-blue-scuti", title: "Blue Scuti：首位讓 NES 當機的人類", topic: "scene",
+    summary: "13 歲玩家打到 157 級，34 年來第一次由人類「破關」。", docs: ["doc_013"], tags: ["Blue Scuti", "當機", "世界紀錄"] },
+  { slug: "14-ctwc", title: "經典俄羅斯方塊世界錦標賽（CTWC）", topic: "scene",
+    summary: "用 NES 版比賽的世界大賽，以及歷屆冠軍。", docs: ["doc_014"], tags: ["CTWC", "比賽", "冠軍"] },
+  { slug: "15-modern-online", title: "現代作品與線上對戰", topic: "scene",
+    summary: "Tetris Effect、Tetris 99、TETR.IO：現代方塊去哪玩。", docs: ["doc_015"], tags: ["Tetris 99", "TETR.IO", "Jstris", "對戰"] },
+  { slug: "16-tetris-effect", title: "俄羅斯方塊效應", topic: "scene",
+    summary: "閉上眼還看到方塊在掉？玩太久會發生的大腦現象。", docs: ["doc_016"], tags: ["心理學", "大腦", "Tetris effect"] }
+];

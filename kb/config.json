@@ -1,0 +1,38 @@
+{
+  "format_version": "1.0",
+  "created_at": "2026-11-02T02:07:03+08:00",
+  "model_id": "google/embeddinggemma-2",
+  "model_revision": "f9972ac22e696a105c482202646979e33e4b5a1e",
+  "model_config_kwargs": {
+    "vision_config": null,
+    "audio_config": null
+  },
+  "dimension": 768,
+  "normalize_embeddings": true,
+  "index_type": "IndexFlatIP",
+  "metric": "cosine_similarity_via_normalized_inner_product",
+  "document_template": "title: none | text: {text}",
+  "query_template": "task: search result | query: {question}",
+  "encode_prompt": "",
+  "max_seq_length": 2048,
+  "document_count": 16,
+  "document_unit": "one_document_one_vector",
+  "document_text_includes_title": true,
+  "package_versions": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.1.3",
+    "sentence-transformers": "6.1.0",
+    "transformers": "5.20.1",
+    "faiss-cpu": "1.15.1",
+    "huggingface-hub": "1.33.0"
+  },
+  "build_device": "cuda",
+  "build_dtype": "torch.bfloat16",
+  "source_archive": "tetris-rag-data.zip",
+  "source_archive_sha256": "ade409c9e674f1727fc104dab5fde34d4cd2eac7f3833b939a5d6a9d97184525",
+  "file_sha256": {
+    "index.faiss": "af90aaef4ebb8f3e8ead67c4895ecd0d0bedeb01610d31e31a2f05f0bfe0e0e1",
+    "documents.json": "14609a3bf3e052bb4d882f94832b1ec9f6b1a19b7e27e96a47959ee8e051dea9",
+    "index_doc_ids.json": "7ffee20cbec93b9c18ac12141976bd3e70c2e3313abcba175e4461a214827226"
+  }
+}

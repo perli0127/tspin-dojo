@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>7-bag 隨機產生器與 Hold｜T轉道場</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-slug="07-7bag-hold">
+<div class="wrap wrap-narrow">
+<article class="lesson">
+
+  <header class="lesson-head">
+    <h1>7-bag 隨機產生器與 Hold</h1>
+    <p class="lead">現代方塊不是純隨機——掌握發牌規律，就能提前規劃。</p>
+  </header>
+
+  <section class="keypoints">
+    <h2>三句話重點</h2>
+    <ul>
+      <li>7-bag：七種方塊各一個放進袋子洗牌，發完再換新袋。</li>
+      <li>因此同一種方塊最多隔 12 塊一定會再出現，不會久等長條。</li>
+      <li>Hold 可暫存目前方塊，但每塊落定前只能用一次。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>七塊一袋</h2>
+    <p>現代作品採用「7-bag」隨機產生器：把七種方塊各一個放進袋子裡洗牌，依序發出；袋子發完就換一個新袋。所以每連續七塊（以袋為單位）一定剛好包含七種方塊各一次。</p>
+    <figure class="board-fig">
+<pre class="board">
+IJZOLTS SZOJTLI
+</pre>
+      <figcaption>最壞情況：I 是第一袋的第一塊、第二袋的最後一塊，中間隔了 12 塊</figcaption>
+    </figure>
+    <p>上圖就是「同一種方塊最多連續 12 個不出現」的情況。相比之下，純隨機可能讓你長時間等不到長條。</p>
+  </section>
+
+  <section>
+    <h2>Hold：一次一用的暫存格</h2>
+    <p>Hold 功能可以把目前的方塊暫存起來，換成下一塊或先前暫存的那塊。限制是：每塊方塊落定之前只能使用一次 Hold，不能無限換來換去。</p>
+  </section>
+
+  <section>
+    <h2>高手怎麼用</h2>
+    <p>熟練玩家會結合袋子規律、預覽佇列與 Hold 預先規劃擺法，第 10 篇的「開局」就大量依賴這三者。經典 NES 版則既沒有 7-bag 也沒有 Hold。</p>
+  </section>
+
+  <section class="quiz">
+    <h2>道場小測驗</h2>
+    <details><summary>在 7-bag 規則下，同一種方塊最多會連續幾塊不出現？</summary><p>12 塊。</p></details>
+    <details><summary>Hold 有什麼使用限制？</summary><p>每塊方塊落定前只能用一次。</p></details>
+  </section>
+
+  <section class="sources">
+    <h2>資料來源</h2>
+    <ul>
+      <li><a href="https://tetris.wiki/Tetris_Guideline" target="_blank" rel="noopener">TetrisWiki（Tetris Guideline 條目：Random Generator、Hold）</a>・知識庫 <code>doc_007</code></li>
+    </ul>
+  </section>
+
+</article>
+</div>
+<script src="../data/articles.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>

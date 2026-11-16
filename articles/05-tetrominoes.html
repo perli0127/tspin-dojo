@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>七種方塊與遊戲場地｜T轉道場</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-slug="05-tetrominoes">
+<div class="wrap wrap-narrow">
+<article class="lesson">
+
+  <header class="lesson-head">
+    <h1>七種方塊與遊戲場地</h1>
+    <p class="lead">先認識手上的七張牌，和你要出牌的那張 10×20 桌面。</p>
+  </header>
+
+  <section class="keypoints">
+    <h2>三句話重點</h2>
+    <ul>
+      <li>俄羅斯方塊使用七種「四格骨牌（tetromino）」：I、O、T、S、Z、J、L。</li>
+      <li>指導方針規定標準配色，例如 T 是紫色、I 是淺藍、O 是黃色。</li>
+      <li>標準場地寬 10 格、高 20 格，上方另有隱藏緩衝區。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>七種四格骨牌</h2>
+    <p>每個方塊都由四個正方形組成，稱為「四格骨牌（tetromino）」，共七種，依形狀命名為 I、O、T、S、Z、J、L。下圖就是它們在指導方針中的標準配色。</p>
+    <div class="board-row">
+      <figure class="board-fig">
+<pre class="board">
+IIII OO TTT  SS
+     OO  T  SS
+</pre>
+        <figcaption>I（淺藍）、O（黃）、T（紫）、S（綠）</figcaption>
+      </figure>
+      <figure class="board-fig">
+<pre class="board">
+ZZ  J     L
+ ZZ JJJ LLL
+</pre>
+        <figcaption>Z（紅）、J（深藍）、L（橘）</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>標準配色表</h2>
+    <div class="table-scroll">
+    <table class="data">
+      <tr><th>方塊</th><th>顏色</th><th>特色</th></tr>
+      <tr><td>I</td><td>淺藍</td><td>一次最多消 4 行，稱為「Tetris」</td></tr>
+      <tr><td>O</td><td>黃</td><td>旋轉不改變形狀</td></tr>
+      <tr><td>T</td><td>紫（洋紅）</td><td>T轉的主角</td></tr>
+      <tr><td>S</td><td>綠</td><td>不能平放，容易製造空洞</td></tr>
+      <tr><td>Z</td><td>紅</td><td>不能平放，容易製造空洞</td></tr>
+      <tr><td>J</td><td>深藍</td><td>和 L 互為鏡像</td></tr>
+      <tr><td>L</td><td>橘</td><td>和 J 互為鏡像</td></tr>
+    </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>場地：10 × 20</h2>
+    <p>標準場地寬 10 格、高 20 格，上方還有一塊看不見的隱藏緩衝區，讓方塊能從畫面外出現。I 方塊直立時剛好四格高，所以一次最多能消 4 行，這個動作本身就叫「Tetris」。</p>
+  </section>
+
+  <section class="quiz">
+    <h2>道場小測驗</h2>
+    <details><summary>T 方塊的標準顏色是什麼？</summary><p>紫色（洋紅）。</p></details>
+    <details><summary>哪兩種方塊最容易在堆疊中製造空洞？為什麼？</summary><p>S 和 Z，因為它們不能平放。</p></details>
+    <details><summary>一次消 4 行叫什麼？用哪種方塊做到？</summary><p>叫「Tetris」，用 I 方塊。</p></details>
+  </section>
+
+  <section class="sources">
+    <h2>資料來源</h2>
+    <ul>
+      <li><a href="https://tetris.wiki/Tetris_Guideline" target="_blank" rel="noopener">TetrisWiki（Tetris Guideline 條目）</a>・知識庫 <code>doc_005</code></li>
+    </ul>
+  </section>
+
+</article>
+</div>
+<script src="../data/articles.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,210 @@
+[
+  {
+    "doc_id": "doc_001",
+    "text": "俄羅斯方塊的誕生（維基百科（Tetris 條目））\n\n俄羅斯方塊（Tetris）由蘇聯科學院多羅德尼岑計算中心的研究員阿列克謝・帕基特諾夫（Alexey Pajitnov）設計。官方說法是第一個可玩版本在1984年6月6日完成，這天後來被定為「世界俄羅斯方塊日」；但也有遊戲史研究者根據版權登記與同事證詞，認為實際年份應為1985年。原型在只能顯示文字的 Elektronika 60 電腦上執行，方塊用括號與空白字元拼成。帕基特諾夫為避免畫面很快被填滿，決定讓填滿的橫列自動消除，這成為遊戲的核心機制。名稱由希臘字首「tetra」（四）與他喜愛的網球「tennis」組合而成；同事帕夫洛夫斯基與當時16歲的格拉西莫夫協助移植到 IBM PC。",
+    "metadata": {
+      "title": "俄羅斯方塊的誕生",
+      "source_name": "維基百科（Tetris 條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris",
+      "date": "2026-11-02",
+      "filename": "01_俄羅斯方塊的誕生.txt",
+      "topic": "歷史",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_002",
+    "text": "走出蘇聯與版權爭奪（TetrisWiki（History 條目））\n\n因為遊戲是在國家機構內開發，版權屬於蘇聯政府，對外授權由外貿機構 Elorg 負責，帕基特諾夫本人多年拿不到權利金。遊戲先流傳到匈牙利，英國商人羅伯特・史坦（Robert Stein）在權利尚未確定時就轉授給 Mirrorsoft 等公司，造成授權混亂。1989年2月，Bullet-Proof Software 的漢克・羅傑斯（Henk Rogers）直接飛往莫斯科與 Elorg 談判，取得掌機版權並轉授任天堂。Atari 旗下 Tengen 依據有瑕疵的授權推出 NES 版，後來在訴訟中敗訴而下架。這段故事在2023年被 Apple TV+ 拍成電影《Tetris》，由塔隆・艾格頓飾演羅傑斯。",
+    "metadata": {
+      "title": "走出蘇聯與版權爭奪",
+      "source_name": "TetrisWiki（History 條目）",
+      "source_url": "https://tetris.wiki/History",
+      "date": "2026-11-02",
+      "filename": "02_走出蘇聯與版權爭奪.txt",
+      "topic": "歷史",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_003",
+    "text": "Game Boy 版與 NES 版（維基百科（Tetris Game Boy 版條目））\n\nGame Boy 版俄羅斯方塊於1989年6月在日本、同年7月在北美發售，並與 Game Boy 主機同捆。任天堂美國總裁荒川實原本想同捆《超級瑪利歐大陸》，羅傑斯則主張瑪利歐只吸引小男孩，俄羅斯方塊能吸引所有人，最後說服任天堂。這款遊戲被視為 Game Boy 的「殺手級應用」，讓掌機與方塊一起普及全球。同年任天堂也推出 NES（紅白機）版，這個版本後來成為「經典俄羅斯方塊」競賽的標準版本。",
+    "metadata": {
+      "title": "Game Boy 版與 NES 版",
+      "source_name": "維基百科（Tetris Game Boy 版條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris_(Game_Boy_video_game)",
+      "date": "2026-11-02",
+      "filename": "03_Game_Boy與NES版.txt",
+      "topic": "歷史",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_004",
+    "text": "The Tetris Company 與 Tetris Guideline（TetrisWiki（Tetris Guideline 條目））\n\n1996年羅傑斯與帕基特諾夫共同成立 The Tetris Company 管理商標與授權，並在2005年收購 Elorg，取得全球完整權利。自2001年的《Tetris Worlds》起，該公司以「Tetris Guideline（指導方針）」規範新作，內容包括超級旋轉系統（SRS）、7-bag 隨機產生器、Hold 暫存、下一塊預覽、影子方塊（ghost piece）、T轉計分規則與固定的方塊顏色等。因此2001年後的官方作品常被稱為「現代俄羅斯方塊」，與1980年代末的經典版在操作與策略上差異很大。",
+    "metadata": {
+      "title": "The Tetris Company 與 Tetris Guideline",
+      "source_name": "TetrisWiki（Tetris Guideline 條目）",
+      "source_url": "https://tetris.wiki/Tetris_Guideline",
+      "date": "2026-11-02",
+      "filename": "04_俄羅斯方塊公司與指導方針.txt",
+      "topic": "歷史",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_005",
+    "text": "七種方塊與遊戲場地（TetrisWiki（Tetris Guideline 條目））\n\n俄羅斯方塊使用由四個正方形組成的「四格骨牌（tetromino）」，共有七種，依形狀稱為 I、O、T、S、Z、J、L。依指導方針的標準配色：I 為淺藍、O 為黃、T 為紫（洋紅）、S 為綠、Z 為紅、J 為深藍、L 為橘。標準場地寬10格、高20格，上方另有隱藏緩衝區。I 一次最多可消4行，稱為「Tetris」；S 與 Z 不能平放，最容易在堆疊中製造空洞。",
+    "metadata": {
+      "title": "七種方塊與遊戲場地",
+      "source_name": "TetrisWiki（Tetris Guideline 條目）",
+      "source_url": "https://tetris.wiki/Tetris_Guideline",
+      "date": "2026-11-02",
+      "filename": "05_七種方塊與場地.txt",
+      "topic": "規則與機制",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_006",
+    "text": "超級旋轉系統（SRS）與踢牆（TetrisWiki（Tetris Guideline 條目：Super Rotation System））\n\n超級旋轉系統（Super Rotation System，SRS）是現代作品的標準旋轉規則。當方塊旋轉後會與牆壁或其他方塊重疊時，遊戲會依序嘗試最多5個位移位置，只要有一個合法就把方塊「踢」過去，這稱為踢牆（wall kick）；地板也能踢（floor kick）。J、L、S、T、Z 共用一張位移表，I 方塊另有一張。SRS 的所有旋轉都是可逆的，這也是「T轉三消（T-Spin Triple）」能夠成立的原因。經典 NES 版沒有踢牆，旋轉被擋住就會失敗。",
+    "metadata": {
+      "title": "超級旋轉系統（SRS）與踢牆",
+      "source_name": "TetrisWiki（Tetris Guideline 條目：Super Rotation System）",
+      "source_url": "https://tetris.wiki/Tetris_Guideline",
+      "date": "2026-11-02",
+      "filename": "06_SRS旋轉系統與踢牆.txt",
+      "topic": "規則與機制",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_007",
+    "text": "7-bag 隨機產生器與 Hold（TetrisWiki（Tetris Guideline 條目：Random Generator、Hold））\n\n現代作品採用「7-bag」隨機產生器：把七種方塊各一個放進袋子洗牌後依序發出，袋子用完再換新袋。因此同一種方塊最多連續12個不會出現（上一袋第一個、下一袋最後一個的情況），不會像純隨機那樣長時間等不到長條。Hold 功能可以把目前方塊暫存起來、換成下一塊或先前暫存的方塊，但每塊方塊落定前只能使用一次。熟練玩家會根據袋子規律與預覽佇列預先規劃擺法。經典 NES 版既沒有 7-bag 也沒有 Hold。",
+    "metadata": {
+      "title": "7-bag 隨機產生器與 Hold",
+      "source_name": "TetrisWiki（Tetris Guideline 條目：Random Generator、Hold）",
+      "source_url": "https://tetris.wiki/Tetris_Guideline",
+      "date": "2026-11-02",
+      "filename": "07_7-bag與Hold.txt",
+      "topic": "規則與機制",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_008",
+    "text": "T轉（T-Spin）的判定（TetrisWiki（T-Spin 條目））\n\nT轉（T-Spin）是用旋轉把 T 方塊塞進一般無法直接落下的缺口。指導方針採用「三角規則」：最後一個動作必須是旋轉，且 T 方塊中心周圍的四個斜角中至少有三個被方塊或牆壁佔據。若 T 凸出那一面（前方）的兩個角都被佔據，算正式 T轉；若前方只有一角、後方兩角都佔據，通常算「迷你T轉（T-Spin Mini）」。例外是踢牆時位移最大的那一種（常見於 T轉三消），即使角的條件像迷你，仍算正式 T轉。不同作品的細節判定略有差異。",
+    "metadata": {
+      "title": "T轉（T-Spin）的判定",
+      "source_name": "TetrisWiki（T-Spin 條目）",
+      "source_url": "https://tetris.wiki/T-Spin",
+      "date": "2026-11-02",
+      "filename": "08_T轉的判定.txt",
+      "topic": "T轉與技巧",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_009",
+    "text": "T轉計分、Back-to-Back 與攻擊（TetrisWiki（T-Spin 條目：Rewards））\n\n依指導方針，基礎得分（再乘以等級）為：單消100、雙消300、三消500、Tetris 800；T轉不消行400、T轉單消800、T轉雙消1200、T轉三消1600；迷你T轉不消行100、迷你單消200。Tetris 與會消行的 T轉屬於「困難消除」，連續做出時觸發 Back-to-Back，得分乘1.5倍。連擊（combo）另有加分。對戰中消行會把垃圾行送給對手，一般 T轉雙消送4行、T轉三消送6行、Tetris 送4行，但實際數值依作品而不同（例如 Tetris 99、TETR.IO 各有自己的攻擊表）。",
+    "metadata": {
+      "title": "T轉計分、Back-to-Back 與攻擊",
+      "source_name": "TetrisWiki（T-Spin 條目：Rewards）",
+      "source_url": "https://tetris.wiki/T-Spin",
+      "date": "2026-11-02",
+      "filename": "09_T轉計分與攻擊.txt",
+      "topic": "T轉與技巧",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_010",
+    "text": "基本堆疊技巧與 T轉開局（Mythras 部落格（Tetris Stacking Fundamentals））\n\n穩定的基礎是保持堆疊表面平坦、少懸空，並在場地一側留一條直井等待 I 方塊做 Tetris。O 方塊要放在兩格寬的平面上，S、Z 要放在相符的階梯處。進階玩家會預留 T 形缺口做 T轉雙消（TSD），這是對戰中效率最高的常用招式之一。「開局（opener）」是在開場用固定擺法快速製造攻擊，例如 TKI、DT 砲（DT Cannon）等，常結合 Hold 與 7-bag 規律；另一種目標是「全清（Perfect Clear）」，把整個場地清空可得到大量分數與攻擊。初學者建議先練平坦堆疊，再學一兩個開局。",
+    "metadata": {
+      "title": "基本堆疊技巧與 T轉開局",
+      "source_name": "Mythras 部落格（Tetris Stacking Fundamentals）",
+      "source_url": "https://gamertagmythras.com/blog/tetris/tetris-stacking-fundamentals",
+      "date": "2026-11-02",
+      "filename": "10_堆疊技巧與T轉開局.txt",
+      "topic": "T轉與技巧",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_011",
+    "text": "NES 經典版與等級29「殺屏」（維基百科（Tetris NES 版條目））\n\n1989年的 NES 版俄羅斯方塊沒有 Hold、預覽只有一塊、沒有踢牆也沒有 T轉加分，分數主要靠一次消四行的 Tetris。等級10之後速度只在13、16、19與29級提升；到了29級，方塊每一幀就下落一格，用一般按住方向鍵的方式來不及移到邊緣，因此被稱為「殺屏（kill screen）」。開發者並未預期有人能打過29級，30級以後的等級數字甚至會顯示錯亂。分數上限999,999分稱為「maxout」，2009年由哈利・洪（Harry Hong）首次在影片中證實達成。",
+    "metadata": {
+      "title": "NES 經典版與等級29「殺屏」",
+      "source_name": "維基百科（Tetris NES 版條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris_(NES_video_game)",
+      "date": "2026-11-02",
+      "filename": "11_NES經典版與殺屏.txt",
+      "topic": "經典賽事與現代",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_012",
+    "text": "DAS、Hypertapping 與 Rolling 操作技巧（維基百科（Tetris NES 版條目：Speed techniques））\n\nNES 版按住方向鍵會觸發 DAS（延遲自動移動），速度約每秒10格，到29級就不夠用了。Hypertapping 是讓手臂肌肉緊繃顫抖、以每秒10次以上快速點擊十字鍵；索爾・阿克倫德（Thor Aackerlund）是首位使用者，2011年在影片中打到30級，2018年喬瑟夫・塞利（Joseph Saelee）以此技巧奪得世界冠軍而使其普及。約2020至2021年間，玩家 Cheez 推廣了「Rolling」：用一手手指依序滾動敲擊手把背面，把手把推向按住十字鍵的拇指，可達每秒20次以上，徹底改變了經典俄羅斯方塊比賽。",
+    "metadata": {
+      "title": "DAS、Hypertapping 與 Rolling 操作技巧",
+      "source_name": "維基百科（Tetris NES 版條目：Speed techniques）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris_(NES_video_game)",
+      "date": "2026-11-02",
+      "filename": "12_DAS_Hypertap與Rolling.txt",
+      "topic": "T轉與技巧",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_013",
+    "text": "Blue Scuti：首位讓 NES 俄羅斯方塊當機的人類（404 Media 報導）\n\nNES 版沒有正式結局，等級夠高時程式會因數值溢位而當機，這被視為真正的「破關」。過去只有 AI 程式（如 StackRabbit）在修改版中做到。2023年12月21日，美國奧克拉荷馬州13歲玩家威利斯・吉布森（Willis Gibson，暱稱 Blue Scuti）用 Rolling 技巧打到157級，在消一行後讓遊戲當機，成為首位做到的人類，距 NES 版發售已34年。他在2024年1月上傳影片後引發全球媒體報導，這場比賽也同時刷新了當時的分數、等級與消行數世界紀錄。",
+    "metadata": {
+      "title": "Blue Scuti：首位讓 NES 俄羅斯方塊當機的人類",
+      "source_name": "404 Media 報導",
+      "source_url": "https://404media.co/13-year-old-becomes-first-person-to-ever-beat-tetris",
+      "date": "2026-11-02",
+      "filename": "13_首位人類破關.txt",
+      "topic": "經典賽事與現代",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_014",
+    "text": "經典俄羅斯方塊世界錦標賽（CTWC）（維基百科（Classic Tetris World Championship 條目））\n\n經典俄羅斯方塊世界錦標賽（Classic Tetris World Championship，CTWC）自2010年起舉辦，比賽使用 NES 版，現由 SoCal Gaming Expo 主辦，在美國加州帕薩迪納舉行。冠軍組稱為金牌組（Gold Bracket），另有銀、銅牌組；2022年曾有地方媒體把銀牌組冠軍誤報為世界冠軍。早期由喬納斯・紐鮑爾（Jonas Neubauer）多次奪冠；近年 Alex T（Alex Thach）拿下2024與2025年冠軍。2026年第17屆賽事於6月5日至7日舉行，由 dogplayingtetris（Michael Artiaga，暱稱 Dog）奪冠，是他繼2020、2021年後第三座冠軍。",
+    "metadata": {
+      "title": "經典俄羅斯方塊世界錦標賽（CTWC）",
+      "source_name": "維基百科（Classic Tetris World Championship 條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Classic_Tetris_World_Championship",
+      "date": "2026-11-02",
+      "filename": "14_經典俄羅斯方塊世界錦標賽.txt",
+      "topic": "經典賽事與現代",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_015",
+    "text": "現代作品與線上對戰（維基百科（Tetris 99 條目））\n\n2018年的《Tetris Effect》以音樂與視覺特效隨玩家操作同步變化聞名，2020年擴充為加入多人模式的《Tetris Effect: Connected》。2019年2月13日任天堂在 Switch 推出由 Arika 開發的《Tetris 99》，99名玩家同時線上對戰、互送垃圾行，最後存活者獲勝，屬於大逃殺玩法，加入 Nintendo Switch Online 即可遊玩。《魔法氣泡俄羅斯方塊（Puyo Puyo Tetris）》則結合兩款益智遊戲。社群中常見的免費網頁遊戲有 TETR.IO（開發者 osk，提供排位對戰 Tetra League）與 Jstris（適合練習40行競速等）。這些作品大多遵循 Guideline，但攻擊表與判定細節各有不同。",
+    "metadata": {
+      "title": "現代作品與線上對戰",
+      "source_name": "維基百科（Tetris 99 條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris_99",
+      "date": "2026-11-02",
+      "filename": "15_現代作品與線上對戰.txt",
+      "topic": "經典賽事與現代",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  },
+  {
+    "doc_id": "doc_016",
+    "text": "俄羅斯方塊效應（Tetris effect）（維基百科（Tetris effect 條目））\n\n「俄羅斯方塊效應」指長時間做同一件事後，相關畫面會不自覺出現在腦海、夢境或日常觀察中，例如閉眼看到落下的方塊，或看到物品就想把它們排整齊；這個詞因1994年《Wired》雜誌的一篇文章而流行。心理學家理查・海爾（Richard Haier）在1990年代初的 PET 研究中發現，玩家熟練後大腦耗用的葡萄糖反而減少，顯示效率提升；2009年他的團隊以 MRI 研究青少女，發現練習三個月後部分皮質變厚。牛津大學 Emily Holmes 等人的研究則指出，創傷事件後不久玩俄羅斯方塊，可能減少侵入性的創傷畫面回憶。2018年的遊戲《Tetris Effect》即以此現象命名。",
+    "metadata": {
+      "title": "俄羅斯方塊效應（Tetris effect）",
+      "source_name": "維基百科（Tetris effect 條目）",
+      "source_url": "https://en.wikipedia.org/wiki/Tetris_effect",
+      "date": "2026-11-02",
+      "filename": "16_俄羅斯方塊效應.txt",
+      "topic": "經典賽事與現代",
+      "document_type": "公開資料的教學改寫摘要（非網站全文）"
+    }
+  }
+]

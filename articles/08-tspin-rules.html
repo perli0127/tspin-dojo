@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>T轉的判定：三角規則｜T轉道場</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Noto+Sans+TC:wght@400;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body data-slug="08-tspin-rules">
+<div class="wrap wrap-narrow">
+<article class="lesson">
+
+  <header class="lesson-head">
+    <h1>T轉的判定：三角規則</h1>
+    <p class="lead">道場本科第一課：遊戲到底怎麼知道你「轉」進去了？</p>
+  </header>
+
+  <section class="keypoints">
+    <h2>三句話重點</h2>
+    <ul>
+      <li>T轉（T-Spin）是用旋轉把 T 方塊塞進一般無法直接落下的缺口。</li>
+      <li>三角規則：最後一步是旋轉，且 T 中心周圍四個斜角至少三個被佔據。</li>
+      <li>前方兩角都佔據算正式 T轉；只有一角、後方兩角佔據通常算迷你T轉。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>T轉是什麼</h2>
+    <p>T轉（T-Spin）是用旋轉把 T 方塊塞進一般無法直接落下的缺口。下面是最經典的 T轉雙消（T-Spin Double, TSD）：缺口上方有一格「屋簷」擋住，T 不能直接掉下去，只能從旁邊轉進去。</p>
+    <div class="board-row">
+      <figure class="board-fig">
+<pre class="board">
+..........
+###.......
+##...#####
+###.######
+</pre>
+        <figcaption>① T 形缺口，左上有屋簷</figcaption>
+      </figure>
+      <figure class="board-fig">
+<pre class="board">
+..........
+###.......
+##ttt#####
+###t######
+</pre>
+        <figcaption>② T 旋轉塞入（虛線處）</figcaption>
+      </figure>
+      <figure class="board-fig">
+<pre class="board">
+..........
+..........
+..........
+###.......
+</pre>
+        <figcaption>③ 兩行同時消除：T轉雙消</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>三角規則（3-corner rule）</h2>
+    <p>指導方針用「三角規則」判定 T轉，兩個條件都要成立：</p>
+    <ol>
+      <li>最後一個動作必須是<strong>旋轉</strong>（轉完再左右移動就不算）。</li>
+      <li>T 方塊中心周圍的<strong>四個斜角</strong>中，至少有<strong>三個</strong>被方塊或牆壁佔據。</li>
+    </ol>
+    <p>以圖 ② 為例：T 的中心在第三列第四格，它的左上（屋簷）、左下、右下三個斜角都有方塊，只有右上是空的——三角成立。</p>
+  </section>
+
+  <section>
+    <h2>正式 T轉 vs 迷你T轉</h2>
+    <p>T 凸出的那一面叫「前方」。若前方兩個角都被佔據，算正式 T轉；若前方只有一角、後方兩角都被佔據，通常算「迷你T轉（T-Spin Mini）」。圖 ② 的 T 朝下，前方是兩個下角，都有方塊，所以是正式 T轉。</p>
+    <p>例外：踢牆時位移最大的那一種（常見於 T轉三消），即使角的條件看起來像迷你，仍算正式 T轉。不同作品的細節判定略有差異。</p>
+  </section>
+
+  <section class="quiz">
+    <h2>道場小測驗</h2>
+    <details><summary>三角規則的兩個條件是什麼？</summary><p>最後一個動作是旋轉，且 T 中心的四個斜角至少三個被佔據。</p></details>
+    <details><summary>T 轉進去之後再往左移一格，還算 T轉嗎？</summary><p>不算，因為最後一個動作不是旋轉。</p></details>
+    <details><summary>前方只有一角、後方兩角被佔據，通常算什麼？</summary><p>迷你T轉（T-Spin Mini）。</p></details>
+  </section>
+
+  <section class="sources">
+    <h2>資料來源</h2>
+    <ul>
+      <li><a href="https://tetris.wiki/T-Spin" target="_blank" rel="noopener">TetrisWiki（T-Spin 條目）</a>・知識庫 <code>doc_008</code></li>
+    </ul>
+  </section>
+
+</article>
+</div>
+<script src="../data/articles.js"></script>
+<script src="../assets/site.js"></script>
+</body>
+</html>
